@@ -1,0 +1,18 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    DataViewController = {
+	Actions = (
+	);
+	Outlets = (
+	    tableView,
+	    tableView
+	);
+	Super = NSWindowController;
+    };
+    FirstResponder = {
+	Actions = (
+	    "closeWindow:"
+	);
+	Super = NSObject;
+    };
+}

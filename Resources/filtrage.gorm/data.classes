@@ -1,0 +1,78 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    AppController = {
+	Actions = (
+	    "typeButtonChanged:",
+	    "orderButtonChanged:",
+	    "frequencyChanged:",
+	    "magdbChanged:",
+	    "qualityFactorChanged:",
+	    "gainChanged:",
+	    "logScaleChanged:",
+	    "fixedScaleChanged:",
+	    "showValueClicked:",
+	    "showPrefPanel:"
+	);
+	Outlets = (
+	    frequencySlider,
+	    gainSlider,
+	    qualityFactorSlider,
+	    frequencyValue,
+	    qualityFactorValue,
+	    gainValue,
+	    orderButton,
+	    typeButton,
+	    theView,
+	    minGain,
+	    maxGain,
+	    minPhase,
+	    maxPhase,
+	    frequencySlider,
+	    gainSlider,
+	    qualityFactorSlider,
+	    frequencyValue,
+	    qualityFactorValue,
+	    gainValue,
+	    orderButton,
+	    typeButton,
+	    theView,
+	    minGain,
+	    maxGain,
+	    minPhase,
+	    maxPhase
+	);
+	Super = NSObject;
+    };
+    FirstResponder = {
+	Actions = (
+	    "DessineBodeChanged:",
+	    "fixedScaleChanged:",
+	    "frequencyButtonChanged:",
+	    "frequencyChanged:",
+	    "gainChanged:",
+	    "logScaleChanged:",
+	    "magdbChanged:",
+	    "orderButtonChanged:",
+	    "orderFrontFontPanel:",
+	    "qualityFactorChanged:",
+	    "showPrefPanel:",
+	    "showValueClicked:",
+	    "typeButtonChanged:"
+	);
+	Super = NSObject;
+    };
+    NewClass = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSObject;
+    };
+    PlotView = {
+	Actions = (
+	);
+	Outlets = (
+	);
+	Super = NSView;
+    };
+}
